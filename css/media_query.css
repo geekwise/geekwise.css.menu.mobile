@@ -1,0 +1,22 @@
+@media only screen and (max-width : 640px){
+    
+    #menu{
+        visibility:visible;
+        display:inline-block;
+        float:right;
+    }
+    
+    nav ul, nav:active ul{
+        display:none;
+    }
+ 
+    nav li{
+        text-align:center;
+        width:100%;
+    }
+    
+    nav:hover ul{
+        display:inline;
+    }
+    
+}
